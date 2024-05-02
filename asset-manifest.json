@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/suite-landing-page/static/css/main.bab3b1c9.css",
+    "main.js": "/suite-landing-page/static/js/main.69e42ba6.js",
+    "static/media/Epilogue-SemiBold.ttf": "/suite-landing-page/static/media/Epilogue-SemiBold.c536e0e32ae9dbff21d2.ttf",
+    "static/media/Epilogue-Bold.ttf": "/suite-landing-page/static/media/Epilogue-Bold.7c04a963fd16125b0727.ttf",
+    "static/media/Epilogue-Regular.ttf": "/suite-landing-page/static/media/Epilogue-Regular.3446cbdeae664b7f3dc4.ttf",
+    "static/media/image-jeremy-large.png": "/suite-landing-page/static/media/image-jeremy-large.7568e3e8e870bb0a4554.png",
+    "static/media/image-hero-portrait.png": "/suite-landing-page/static/media/image-hero-portrait.4dad9378090c290deea2.png",
+    "static/media/logo.svg": "/suite-landing-page/static/media/logo.4dfe9487ba72fe85d2bff53029645830.svg",
+    "index.html": "/suite-landing-page/index.html",
+    "static/media/pattern-curved-line-2.svg": "/suite-landing-page/static/media/pattern-curved-line-2.b3e7a600581015c6814002a2b1b5992d.svg",
+    "static/media/pattern-curved-line-1.svg": "/suite-landing-page/static/media/pattern-curved-line-1.737baf08aa1b342f22c34fc8ba6387cb.svg",
+    "main.bab3b1c9.css.map": "/suite-landing-page/static/css/main.bab3b1c9.css.map",
+    "main.69e42ba6.js.map": "/suite-landing-page/static/js/main.69e42ba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bab3b1c9.css",
+    "static/js/main.69e42ba6.js"
+  ]
+}
