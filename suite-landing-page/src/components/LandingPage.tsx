@@ -4,6 +4,7 @@ import Jeremy from '../assets/images/image-jeremy-large.png'
 import Line2 from '../assets/images/pattern-curved-line-2.svg'
 import Line from '../assets/images/pattern-curved-line-1.svg'
 import PhoneImage from '../assets/images/image-hero-portrait.png'
+import JeremyBlur from '../assets/images/pattern-blur.svg'
 
 function LandingPage()
 {
@@ -70,6 +71,7 @@ function LandingPage()
                 </div>
             </div>
             <div className='jeremy-content'>
+                <img className='jeremy-blur' src={JeremyBlur}></img>
                 <img className="jeremy-image" src={Jeremy}></img>
                 <img className="jeremy-line" src={Line2}></img>
                 <div className='jeremy-text'>
