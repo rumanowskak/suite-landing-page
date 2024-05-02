@@ -2,14 +2,23 @@
 {
     background-color: #FAF8F6;
     width: 100%;
+    position: relative;
 }
 
 .navbar
 {
-    width: 100%;
-    height: 200px;
+    padding-left: 10%;
+    width: 80%;
+    height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+
+}
+
+.navbar img{
+    max-width: 80px;
 }
 
 .navbar-button
@@ -21,9 +30,324 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Epilogue Bold & Regular';
+    font-size: 16px;
+    color: #172339;
 }
 
 .navbar-button:hover
 {
     background-color: #172339;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header
+{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+
+.phoneImage
+{
+    height: 100%;
+    width: 350px;
+    z-index: 0;
+    position: absolute;
+    left: 40%;
+    border-radius: 15px;
+
+}
+
+.lineImage
+{
+    position: absolute;
+    z-index: 1;
+    top:10%;
+    right: 53%;
+    max-width: 280px;
+
+}
+
+
+.header-title
+{
+    position: absolute;
+    z-index: 1;
+    top:20%;
+    left:0;
+    width: 635px;
+    height: 150px;
+}
+
+.header-title-line
+{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.header-title-unbold
+{
+    font-family: 'Epilogue Regular';
+    font-size: 72px;
+    color: #172339;
+}
+
+.header-title-bold
+{
+    font-family: 'Epilogue Bold & Regular';
+    font-size: 72px;
+    color: #172339;
+    letter-spacing: -1px;
+    padding-left: 3%;
+}
+
+.header-text
+{
+    position: absolute;
+    top:55%;
+    left:0;
+    width: 350px;
+    font-family: 'Epilogue Regular';
+    font-size: 18px;
+    color: #49566D;
+    height: 100px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.header-button
+{
+    position: absolute;
+    top:80%;
+    left:0;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Epilogue Bold & Regular';
+    font-size: 18px;
+    color: #FAF8F6;
+    background-color: #172339;
+}
+
+.header-button:hover
+{
+    background: linear-gradient(180deg, rgba(160,96,255,1) 0%, rgba(203,48,227,1) 49%, rgba(255,168,78,1) 100%);
+    cursor: pointer;
+
+}
+
+.header-numbers-section
+{
+    height: 375px;
+    width: 190px;
+    position: absolute;
+    right:0;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.header-numbers-section-part
+{
+    width: 100%;
+    height: 33%;
+}
+
+.header-numbers
+{
+    width: 100%;
+    height: 50%;
+    font-family: 'Epilogue Bold & Regular'; 
+    font-size: 48px;
+    letter-spacing: -0.5px;
+    line-height: 56px;
+  
+}
+
+.header-subtext
+{
+    width: 100%;
+    height: 50%;
+    font-family: 'Epilogue Regular'; 
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    line-height: 26px;
+}
+
+.jeremy-content
+{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    background-color: #172339;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.jeremy-image
+{
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+.jeremy-line
+{
+    position: absolute;
+    bottom: 60%;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jeremy-text
+{
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 15%;
+    height: 350px;
+    width: 350px;
+}
+
+.jeremy-text-title
+{
+    color: #FAF8F6;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.5px;
+    line-height: 56px;
+}
+
+.jeremy-text-title-unbold
+{
+    font-family: 'Epilogue Regular';
+    font-size: 48px;
+}
+
+.jeremy-text-title-bold
+{
+    padding-left: 3%;
+    font-family: 'Epilogue Bold & Regular';
+    font-size: 48px;
+}
+
+
+.jeremy-main-text
+{
+    color: #FAF8F6;
+    font-family: 'Epilogue Regular';
+    font-size: 20px;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+    padding-top: 5%;
+}
+
+.jeremy-name
+{    color: #FAF8F6;
+    font-family: 'Epilogue Bold';
+    font-size: 18px;
+    height: 5%;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+.jeremy-footer
+{
+    color: #FAF8F6;
+    font-family: 'Epilogue Regular';
+    font-size: 15px;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+
+}
+
+
+
+.footer
+{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    z-index: 1;
+}
+
+.footer-logo
+{
+    max-width: 80px;
+    z-index: 1;
+
+}
+
+.copyright
+{
+    font-family: 'Epilogue Regular';
+    color: #49566D;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    line-height: 32px;
+    z-index: 1;
+
+}
+
+.social-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    z-index: 1;
+
+}
+
+.social-icons svg:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+.darker-background
+{
+    position: absolute;
+    bottom:0;
+    z-index: 0;
+    background-color: #F3EDE7;
+    width: 100%;
+    height: 450px;
 }

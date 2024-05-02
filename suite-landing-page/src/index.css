@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Epilogue Bold'; /*a name to be used later*/
+  src: url('assets/fonts/Epilogue//static/Epilogue-SemiBold.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+  font-family: 'Epilogue Regular'; /*a name to be used later*/
+  src: url('assets/fonts/Epilogue//static/Epilogue-Regular.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+  font-family: 'Epilogue Bold & Regular'; /*a name to be used later*/
+  src: url('assets/fonts/Epilogue//static/Epilogue-Bold.ttf'); /*URL to font*/
+}
+
+
+
+
+
 html,body,#root {
   margin: 0;
   height: 100%;
